@@ -14,12 +14,12 @@
       font-family: 'Roboto', sans-serif;
     }
     body {
-      background: #fdf6ec;
+      background: linear-gradient(to bottom, #e3f2fd, #fff3e0);
       color: #333;
       line-height: 1.6;
     }
     header {
-      background: url('https://images.unsplash.com/photo-1618682078936-98e0b4f61b34?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      background: url('https://images.unsplash.com/photo-1505765050516-f72dcac9c60b?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
       height: 100vh;
       color: white;
       display: flex;
@@ -45,28 +45,14 @@
       margin-bottom: 1rem;
       color: #2a7a5f;
     }
-    .timeline, .packing-list, .budget-table, .fun-facts {
-      margin-bottom: 2rem;
+    .day-section {
+      margin-bottom: 3rem;
     }
-    ul {
-      list-style: square;
-      margin-left: 1.5rem;
-    }
-    .budget-table table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .budget-table th, .budget-table td {
-      border: 1px solid #ccc;
-      padding: 0.5rem;
-      text-align: left;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      margin: 0.5rem;
+    .day-section img {
+      width: 45%;
+      margin: 1rem 2%;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
     .footer {
       text-align: center;
@@ -83,70 +69,56 @@
   </header>
 
   <section data-aos="fade-right">
-    <h2>About the Trip</h2>
-    <p>Our summer destination will be <strong>Rishikesh</strong>. <br> Dates: 21st July to 25th July <br> Transportation: Bus <br> Accommodation: Camping and Airbnb</p>
+    <h2>Our Summer Destination will be Rishikesh</h2>
+    <p><strong>Destination:</strong> Rishikesh<br>
+    <strong>Dates:</strong> 21st July to 25th July<br>
+    <strong>Transportation:</strong> By Bus<br>
+    <strong>Accommodation:</strong> Camping and Airbnb</p>
   </section>
 
-  <section class="timeline" data-aos="fade-left">
-    <h2>Itinerary</h2>
-    <ul>
-      <li><strong>Day 1:</strong> Reach Sakshi's house, meet family, rest.</li>
-      <li><strong>Day 2:</strong> Neer trekking, campsite stay, Maggi dinner 🍜</li>
-      <li><strong>Day 3:</strong> Rafting, bungee jump, sky cycling, beach selfie fun 🤳</li>
-      <li><strong>Day 4:</strong> Temple visits and Ganga Aarti 🕯️</li>
-    </ul>
+  <section class="day-section" data-aos="fade-up">
+    <h2>Day 1</h2>
+    <p>We will reach Sakshi's house at Rishikesh and meet her parents. We’ll spend some time with them and will rest for a few hours.</p>
+    <div>
+      <img src="" alt="Day 1 Photo 1 placeholder">
+      <img src="" alt="Day 1 Photo 2 placeholder">
+    </div>
   </section>
 
-  <section class="packing-list" data-aos="fade-up">
-    <h2>Packing List</h2>
-    <ul>
-      <li>First Aid Kit</li>
-      <li>Power bank</li>
-      <li>Towel</li>
-      <li>Apni izzat 😂</li>
-      <li>ID proof</li>
-      <li>Custom T-shirts</li>
-      <li>Mini torch</li>
-      <li>Snacks</li>
-      <li>Lipstick 💄</li>
-      <li>Water bottle</li>
-      <li>Phone cover</li>
-    </ul>
+  <section class="day-section" data-aos="fade-up">
+    <h2>Day 2</h2>
+    <p>We left Sakshi’s home and started Neer trekking. We will spend our night at the campsite, and we will cook Maggi for our dinner. 😋</p>
+    <div>
+      <img src="" alt="Day 2 Photo 1 placeholder">
+      <img src="" alt="Day 2 Photo 2 placeholder">
+    </div>
   </section>
 
-  <section class="budget-table" data-aos="fade-right">
-    <h2>Budget</h2>
-    <table>
-      <tr><th>Category</th><th>Cost (₹)</th></tr>
-      <tr><td>Travel tickets</td><td>2000</td></tr>
-      <tr><td>Stay (4 days)</td><td>5000</td></tr>
-      <tr><td>Food</td><td>5000</td></tr>
-      <tr><td>Activities</td><td>8000</td></tr>
-      <tr><td>Local travel</td><td>1000</td></tr>
-      <tr><td>Misc. expenses</td><td>1000</td></tr>
-      <tr><td><strong>Total (Group)</strong></td><td><strong>₹22,000</strong></td></tr>
-      <tr><td>Per Person</td><td>₹4,500</td></tr>
-    </table>
+  <section class="day-section" data-aos="fade-up">
+    <h2>Day 3</h2>
+    <p>Our Day 3 will be full of adventures and cool vibes. We will go river rafting and also try bungee jumping, sky cycling, and other fun activities. At last, we’ll go to the beach and take so many selfies! 🤳</p>
+    <div>
+      <img src="" alt="Day 3 Photo 1 placeholder">
+      <img src="" alt="Day 3 Photo 2 placeholder">
+    </div>
   </section>
 
-  <section class="fun-facts" data-aos="fade-left">
-    <h2>Fun Facts About Rishikesh</h2>
-    <ul>
-      <li>Yoga Capital of the World 🧘‍♀️</li>
-      <li>Beatles visited in 1968 🎶</li>
-      <li>No non-veg or alcohol in most areas 🚫</li>
-    </ul>
-  </section>
-
-  <section class="gallery" data-aos="zoom-in">
-    <h2>Gallery</h2>
-    <img src="https://source.unsplash.com/300x200/?rishikesh,india" alt="Rishikesh 1">
-    <img src="https://source.unsplash.com/300x200/?river,rafting" alt="Rafting">
-    <img src="https://source.unsplash.com/300x200/?temple,ganga" alt="Ganga Aarti">
+  <section class="day-section" data-aos="fade-up">
+    <h2>Day 4</h2>
+    <p>Our Day 4 will be only for holy places. We will visit:<br>
+    - Jhoonatmath Temple<br>
+    - Triveni Ghat<br>
+    - Ram Jhula<br>
+    - Vishwakarma Temple<br>
+    And at last, we will go to Ganga Aarti.</p>
+    <div>
+      <img src="" alt="Day 4 Photo 1 placeholder">
+      <img src="" alt="Day 4 Photo 2 placeholder">
+    </div>
   </section>
 
   <div class="footer">
-    <p>Made with 💙 by The Selfie Squad | Frankfinn Project 2025</p>
+    <p>Made with 💙 by The Selfie Squad </p>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
